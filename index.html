@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="icon" href="/static/assets/img/Olho-Hospital.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Hospital Oftalmed</title>
+
+    <link rel="stylesheet" href="/static/assets/css/index.css">
+
+</head>
+
+<body>
+    <div class="capa-preta">
+        <header>
+            <div id="faixa-header">
+                <!-- desktop -->
+                <nav class="navbar navbar-expand text-nowrap desktop justify-content-around"
+                    style="flex-wrap: wrap; margin-top: 1rem;">
+                    <div style="max-height: 5.95rem; max-width: 18.275em;">
+                        <a href="/" class="logo">
+                            <img id="logo-header" src="img/Hospital-OFTALMED.png" alt="Hospital Oftalmed"
+                                style="width: 100%; height: 100%;">
+                        </a>
+                    </div>
+                    <div class="list-nav d-flex justify-content-center align-items-center">
+                        <ul style="margin-bottom: 0;">
+                            <li><a href="#" class="active-link">Home</a></li>
+                            <li><a href="#" class="">Quem somos</a></li>
+                            <!-- <li><a href="" class="">Blog</a></li> -->
+                            <li><a href="#" class="">Exames</a></li>
+                            <li><a href="#">Convênios</a></li>
+                            <li><a href="#">Corpo Clínico</a></li>
+                            <li><a href="#" class="">Trabalhe
+                                    conosco</a></li>
+                            <li><a href="#" target="_blank" class="button">Agendar Consulta</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- mobile -->
+            <aside class="aside-mobile">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <!-- <li><a href="">Blog</a></li> -->
+                <li><a href="#">Exames</a></li>
+                <li><a href="#">Convênios</a></li>
+                <li><a href="#">Corpo Clínico</a></li>
+                <li><a href="#">Trabalhe conosco</a></li>
+                <li><a href="#" target="_blank" class="button">Agendar Consulta</a></li>
+            </aside>
+            <div class="navbar-button">
+                <div style="max-height: 5.95rem; max-width: 18.275em;">
+                    <a href="/" class="logo">
+                        <img id="logo-header" src="img/Hospital-OFTALMED.png" alt="Hospital Oftalmed"
+                            style="width: 100%; height: 100%;">
+                    </a>
+                </div>
+
+                <!-- menu superior mobile -->
+                <button class="navbar-aside-mobile" onclick="toggleMenu()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>
+            </div>
+        </header>
+
+        <script type="text/javascript">
+            const toggleMenu = () => {
+                document.body.classList.toggle("open");
+            };
+
+        </script>
+
+        <section class="section-carousel">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="width: 90dvw;">
+                    <div class="carousel-item active">
+                        <img src="img/02-04-Oftalmed---Abril-MarromSite.png" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Retinopatia-Diabetica.png" class="d-block w-100 h-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Glaucoma.png" class="d-block w-100 h-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="cards">
+            <div class="card" style="width: 25rem; height: 13rem; color: #333;">
+                <img src="img/Hospital-Predio.jpg" class="card-img" alt="Oftalmed Jockey">
+                <div class="card-img-overlay" style="background-color: #e9e9e9c2;">
+                    <h5 class="card-title">Atendimento Particular</h5>
+                    <p class="card-text">Com uma excelente equipe de médicos especialistas, a Oftalmed oferece
+                        atendimento
+                        particular acessível para todos, mudando para melhor a vida de inúmeras pessoas.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 25rem; height: 13rem;">
+                <img src="img/Jockey.jpg" class="card-img" alt="Oftalmed Centro">
+                <div class="card-img-overlay" style="background-color: #e9e9e9c2;">
+                    <h5 class="card-title">Oftalmed & Convênios</h5>
+                    <p class="card-text">O Hospital Oftalmed oferece atendimento por convênio em um ótimo ambiente e
+                        localização
+                        privilegiada, tudo para seu conforto e facilidade de acesso.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 25rem; height: 13rem;">
+                <img src="img/IMG_3967.jpg" class="card-img" alt="São Pedro">
+                <div class="card-img-overlay" style="background-color: #e9e9e9c2;">
+                    <h5 class="card-title">Oftalmed – SUS</h5>
+                    <p class="card-text">O Hospital Oftalmed realiza uma grande quantidade de atendimentos pelo SUS
+                        (Sistema
+                        Úncio de Saúde), promovendo com responsabilidade, saúde à população.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-horario">
+            <div class="video-iframe">
+                <iframe src="https://www.youtube.com/embed/kgSqhea1MI8" frameborder="0" class="video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="img/horario.jpeg" style="border-radius: 5px;" alt="">
+            </div>
+        </section>
+        <div class="agendar-consulta">
+            <a href="" class="button">Agendar Consulta</a>
+        </div>
+
+        <!--                    BOTÃO DE WHATSAPP                       -->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a class="whatsapp-button" href="#" target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+
+        <!--                     BOTÃO VOLTAR AO TOPO               -->
+        <div onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-light"
+            style="border-color: hsl(198, 48%, 25%);"><i class="fa fa-arrow-up"></i></div>
+
+
+        <!--                    FOOTER                                  -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo footer-section">
+                    <img src="img/Hospital-OFTALMED.png" alt="Oftalmed Logo">
+                    <p>Contamos com uma equipe especializada, com profissionais renomados que buscam proporcionar melhor
+                        atenção para a saúde dos seus olhos. Os cuidados com a visão são nosso objetivo e prioridade
+                        máxima.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>ONDE ESTAMOS</h4>
+                    <a href="https://maps.app.goo.gl/ba9VwnCwMEs7n37j7" target="_blank">
+                        <p>UNIDADE CENTRO<br>Av. Frei Serafim, nº 1989 Centro (Sul), CEP: 64000-020 - Teresina - PI</p>
+                    </a>
+                    <a href="https://maps.app.goo.gl/RBe9XyiUJe9UWWtD9" target="_blank">
+                        <p>UNIDADE JOCKEY<br>Rua Aviador Irapuã Rocha, nº 1320, Sala 01 - Jockey, CEP: 64048-232 -
+                            Teresina
+                            - PI
+                    </a>
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>NOSSOS SERVIÇOS</h4>
+                    <p>CONSULTAS<br>EXAMES<br>CIRURGIAS<br>LENTES DE CONTATO</p>
+                </div>
+                <div class="footer-section">
+                    <h4>FALE CONOSCO</h4>
+                    <p>
+                        <a href="https://www.instagram.com/hospitaloftalmed/" target="_blank"
+                            style="padding: 0 0.5rem 0 0;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="hsl(187, 55%, 38%)"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/oftalmedthe/" target="_blank" style="padding: 0 0.5rem 0 0;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="hsl(187, 55%, 38%)"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/hospital-oftalmed/" target="_blank"
+                            style="padding: 0 0.5rem 0 0;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="hsl(187, 55%, 38%)"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                fill="hsl(187, 55%, 38%)" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                            </svg></a>
+                    </p>
+                    <p><strong>PÁGINA DE
+                            CONTATO</strong><br><a
+                            href="mailto:atendimento@hospitaloftalmed.com.br"><strong>atendimento@hospitaloftalmed.com.br</strong></a><br><a
+                            href="mailto:dpo@hospitaloftalmed.com.br"><strong>dpo@hospitaloftalmed.com.br</strong></a><br>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Hospital Oftalmed.
+                <p style="color: darkblue;"><a href="https://meuapp.dev.br"> Meu App - Soluções Tecnológicas</p></a>
+                </p>
+            </div>
+        </footer>
+
+        <!--                      Scripts                  -->
+        <script>
+            // Obtém o botão
+            var mybutton = document.getElementById("myBtn");
+
+            // Quando o usuário rola para baixo 20px do topo do documento, mostra o botão
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // Quando o usuário clica no botão, rola para o topo do documento
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    appId: '{your-app-id}',
+                    cookie: true,
+                    xfbml: true,
+                    version: '{api-version}'
+                });
+
+                FB.AppEvents.logPageView();
+
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) { return; }
+                js = d.createElement(s); js.id = id;
+                js.src = "https://connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+            FB.getLoginStatus(function (response) {
+                statusChangeCallback(response);
+            });
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+
+</body>
+</div>
+
+</html>
